@@ -3,7 +3,7 @@ palavra2 = str(input('Digite alguma palavra: '))
 
 match (palavra1, palavra2):
     case ('Hello', 'World'):
-        print('Amabs são iguais')
+        print('Ambas são iguais')
     case ('Hello', _):
         print('Não são iguais')
     case (_, 'World'):
